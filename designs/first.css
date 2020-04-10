@@ -1,0 +1,34 @@
+
+
+.btnreset{
+    border:1px solid black;
+    padding:2px;
+    text-align:center;
+    background-color:rgb(0, 255, 34);
+    font-size:40px;
+}
+
+.btnsubmit{
+    border:1px solid black;
+    padding:2px;
+    text-align:center;
+    background-color:tomato;
+    font-size:40px;
+}
+
+.container{
+    
+    border:2px double black;
+    padding:80px;
+     margin:40px;
+    background-color:lightyellow;
+    text-align:center;
+    
+    
+
+}
+
+
+.td{
+    font-size:30px;
+}

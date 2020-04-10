@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+  <title> Skills Selections </title>
+  <link rel="stylesheet"  type="text/css" href="designs/first.css" >
+ 
+</head>
+
+<body>
+<div >
+    <div class="container"   >  
+        <form Style="display: inline-block;"  method="POST" action="php/bestmatch.php">
+            <table class="td">
+                <tr> 
+                    <td>Name: </td>
+                    <td> <input  class="td" type="test" placeholder="Enter your full name"  name="fullname" required></td>
+                </tr>
+
+                
+
+                <tr> 
+                    <td>Email Id: </td>
+                    <td> <input class="td" type="email" placeholder="Enter your email id" name="email" required></td>
+                </tr>
+                
+                <tr> 
+                    <td>Select Gender: </td>
+                    <td> <input class="td" type="radio" value="male" name="gender">Male   <input type="radio" value="female" name="gender">Female</td>
+                </tr>
+
+                <tr>
+                    <td>SELECT  SKILLS:</td> 
+                     <!--Using multiple to select multiple value-->
+            <td>    
+                <select name ='skill[]'  multiple size=4>   
+                     <option value = "html">HTML</option> 
+                     <option value = "css">CSS</option> 
+                     <option value = "javascript">JAVASCRIPT</option> 
+                     <option value = "java">JAVA </option> 
+                     <option value = "dart">Dart</option> 
+                     <option value = "xml">XML</option> 
+                     <option value = "sql">SQL</option> 
+                     <option value = "mongodb">MongoDB</option> 
+                     <option value = "flutter">Flutter</option> 
+                
+
+               </select> 
+            </td> 
+
+                </tr>
+                
+                <tr>
+                   <td> <button  class="btnreset" >Reset</button></td> 
+                   <td> <button  class="btnsubmit" >Submit</button></td>
+                </tr>
+            
+            </table>
+        </form>
+            
+
+    </div>
+</div>
+
+</body>
+
+</html>
